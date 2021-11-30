@@ -24,6 +24,10 @@ from pyrogram import (
   CallbackQueryHandler
 )
 
+from pyrogram.handlers import (
+  MessageHandler
+)
+
 from bot.plugins.incoming_message_fn import (
     incoming_start_message_f,
     incoming_compress_message_f,
