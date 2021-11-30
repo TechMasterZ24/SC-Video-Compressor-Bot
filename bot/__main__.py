@@ -19,12 +19,12 @@ from bot.plugins.new_join_fn import (
 
 from pyrogram import (
   Client, 
-  filters,
-  CallbackQueryHandler
+  filters
 )
 
 from pyrogram.handlers import (
-  MessageHandler
+  MessageHandler,
+  CallbackQueryHandler
 )
 
 from bot.plugins.incoming_message_fn import (
